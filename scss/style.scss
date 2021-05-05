@@ -1,14 +1,4 @@
-/*
-	Template Name: Home Property
-	Author : MarkUps.io
-	Author URI: http://www.markups.io/
-	Version: 1.0
-
-*/
-
-
-/* BASE - Base tyles, Variables, Mixins, etc. */
-
+/* BASE - Base styles, Variables, Mixins, etc. */
 
 @import 'base/_variables.scss';
 @import 'base/_mixins.scss';
@@ -19,10 +9,7 @@
 @import 'modules/_typography.scss';
 @import 'modules/_buttons.scss';
 
-
-
 /* LAYOUTS - Page layout styles */
-
 
 
 /*==================
@@ -50,6 +37,7 @@
 /*==================
  THEME COLOR
 ====================*/
+
 @import 'modules/_theme-color.scss';
 
 /*==================
