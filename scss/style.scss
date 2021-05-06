@@ -24,9 +24,15 @@
 
 @import 'layouts/_nav.scss';
 
+/*==================
+ SCROLL TO TOP
+====================*/
+
+@import 'modules/_scrolltop.scss';
+
 /* ALL SECTION */
 
-@import 'modules/_sections.scss';
+@import 'modules/home.scss';
 
 /*==================
  FOOTER SECTION

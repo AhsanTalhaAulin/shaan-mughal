@@ -180,7 +180,9 @@ img {
   padding: 10px 0;
 }
 
-/* ALL SECTION */
+/*==================
+ SCROLL TO TOP
+====================*/
 /*scrol to top*/
 .scrollToTop {
   bottom: 60px;
@@ -216,6 +218,7 @@ img {
   color: #fff;
 }
 
+/* ALL SECTION */
 /*Preloader*/
 #aa-preloader-area {
   background-color: #fff;
@@ -651,156 +654,6 @@ img {
 }
 
 /*==================
-RESERVATION SECTION
-====================*/
-#mu-reservation {
-  background-color: #222;
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-
-#mu-reservation .mu-reservation-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-#mu-reservation .mu-reservation-area .mu-title h2 {
-  color: #fff;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content {
-  display: inline;
-  float: left;
-  margin-top: 20px;
-  padding: 0 100px;
-  width: 100%;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content h3 {
-  color: #fff;
-  display: inline-block;
-  padding-bottom: 10px;
-  font-weight: bold;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content p {
-  color: #fff;
-  letter-spacing: 0.5px;
-  padding: 0 50px;
-  text-align: center;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form {
-  margin-top: 30px;
-  text-align: center;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form .form-control {
-  margin-bottom: 20px;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"],
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"] {
-  border-radius: 0;
-  color: #000;
-  height: 40px;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:focus,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]::-webkit-input-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]::-webkit-input-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:-moz-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:-moz-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]::-moz-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]::-moz-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:-ms-input-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:-ms-input-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select {
-  border-radius: 0;
-  height: 40px;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select option {
-  margin-bottom: 10px;
-  color: #000;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea {
-  border-radius: 0;
-  color: #000;
-  padding: 10px;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea::-webkit-input-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:-moz-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea::-moz-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:-ms-input-placeholder {
-  color: #555;
-}
-
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form button[type="submit"] {
-  border: none;
-  margin-top: 20px;
-  margin-left: 15px;
-}
-
-.datepicker {
-  border-radius: 0;
-  padding: 6px 10px;
-}
-
-.datepicker .datepicker-switch, .datepicker .prev, .datepicker .next, .datepicker tfoot tr th {
-  font-size: 20px;
-}
-
-.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
-  padding: 6px;
-}
-
-.datepicker table tr td.day:hover {
-  color: #fff;
-}
-
-/*==================
  GALLERY SECTION
 ====================*/
 #mu-gallery {
@@ -1050,7 +903,6 @@ RESERVATION SECTION
 
 #mu-client-testimonial .mu-client-testimonial-area .mu-testimonial-content .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-bio {
   color: #fff;
-  display: inline-block;
   float: left;
   margin-top: 5px;
   margin-bottom: 25px;
