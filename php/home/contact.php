@@ -41,19 +41,23 @@
                                             <h3>Office Address</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
                                             <address>
-                                                <p><i class="fa fa-phone"></i> (850) 457 6688</p>
-                                                <p><i class="fa fa-envelope-o"></i>contact@markups.io</p>
-                                                <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+                                                <p><i class="fa fa-phone"></i> <a callto:"01911296565"> 01911296565 </a></p>
+                                                <p><i class="fa fa-envelope-o"></i>shaanmughalfoods@gmail.com</p>
+                                                <p><i class="fa fa-map-marker"></i>House: 8A/10, Road: 13 (New), Dhanmondi, Dhaka, 1209</p>
                                             </address>
                                         </div>
-                                        <div class="mu-contact-widget">
+
+
+                                        <!-- <div class="mu-contact-widget">
                                             <h3>Open Hours</h3>
                                             <address>
                                                 <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
                                                 <p><span>Saturday</span> 9.00 am to 10 pm</p>
                                                 <p><span>Sunday</span> 10.00 am to 12 pm</p>
                                             </address>
-                                        </div>
+                                        </div> -->
+
+
                                     </div>
                                 </div>
                             </div>

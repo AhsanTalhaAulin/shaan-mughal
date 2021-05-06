@@ -1,6 +1,8 @@
     <!-- Start header section -->
     <header id="mu-header">
+
         <nav class="navbar navbar-default mu-main-navbar" role="navigation">
+
             <div class="container">
                 <div class="navbar-header">
                     <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -11,14 +13,15 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/shaan-logo" alt="Logo img"></a>
+
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
                         <li><a href="#mu-slider">HOME</a></li>
                         <li><a href="#mu-about-us">ABOUT US</a></li>
                         <li><a href="#mu-restaurant-menu">MENU</a></li>
-                        <li><a href="#mu-reservation">RESERVATION</a></li>
+                        <!-- <li><a href="#mu-reservation">RESERVATION</a></li> -->
                         <li><a href="#mu-gallery">GALLERY</a></li>
                         <li><a href="#mu-chef">OUR TEAM</a></li>
                         <li><a href="#mu-latest-news">BLOG</a></li>

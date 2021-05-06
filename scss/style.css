@@ -126,7 +126,7 @@ img {
 .mu-main-navbar {
   background-color: transparent;
   border: none;
-  padding: 25px 0;
+  padding: 0;
   border-radius: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -134,6 +134,7 @@ img {
 
 .mu-main-navbar .mu-main-nav {
   font-family: "Open Sans", sans-serif;
+  padding: 25px 0;
 }
 
 .mu-main-navbar .mu-main-nav li a {
@@ -153,31 +154,27 @@ img {
 
 .mu-main-navbar .navbar-header .navbar-brand {
   padding: 0;
-  margin-top: 8px;
-  height: 34px;
-  width: 145px;
+  margin-top: 0px;
+  width: 120px;
+  height: auto;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.mu-main-navbar .navbar-header .navbar-brand img {
-  width: 100%;
-  height: 100%;
+.mu-main-navbar .navbar-header a img {
+  width: 120px;
+  height: auto;
 }
 
-.mu-main-navbar .navbar-header .navbar-brand-small {
-  height: 20px;
-  margin-top: 16px;
-  width: 105px;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
 }
 
 .navbar-bg {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 /*==================
@@ -300,6 +297,7 @@ img {
 
 #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
   color: #fff;
+  font-family: "Tangerine", cursive;
   font-size: 70px;
   line-height: 90px;
 }

@@ -68,6 +68,11 @@
     <!-- Start Counter Section -->
     <?php include "php/home/counter.php" ?>
 
+
+    <!--Start Services section -->
+    <?php include "php/home/services.php" ?>
+
+
     <!-- Start Restaurant Menu -->
     <?php include "php/home/menu.php" ?>
 
