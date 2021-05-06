@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/shaan-logo" alt="Logo img"></a>
+                    <a class="navbar-brand" href="index.php"><img src="assets/img/shaan-logo" alt="Logo img"></a>
 
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
