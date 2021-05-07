@@ -1,7 +1,7 @@
     <!-- Start header section -->
-    <header id="mu-header">
+    <header id="sm-header">
 
-        <nav class="navbar navbar-default mu-main-navbar" role="navigation">
+        <nav class="navbar navbar-default sm-main-navbar" role="navigation">
 
             <div class="container">
                 <div class="navbar-header">
@@ -13,27 +13,27 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="index.php"><img src="assets/img/shaan-logo" alt="Logo img"></a>
+                    <a class="navbar-brand" href="index.php#sm-services"><img src="assets/img/shaan-logo" alt="Logo img"></a>
 
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-                        <li><a href="#mu-slider">HOME</a></li>
-                        <li><a href="#mu-about-us">ABOUT US</a></li>
-                        <li><a href="#mu-restaurant-menu">MENU</a></li>
-                        <!-- <li><a href="#mu-reservation">RESERVATION</a></li> -->
-                        <li><a href="#mu-gallery">GALLERY</a></li>
-                        <li><a href="#mu-chef">OUR TEAM</a></li>
-                        <li><a href="#mu-latest-news">BLOG</a></li>
-                        <li><a href="#mu-contact">CONTACT</a></li>
-                        <li class="dropdown">
+                    <ul id="top-menu" class="nav navbar-nav navbar-right sm-main-nav">
+                        <li><a href="#sm-slider">HOME</a></li>
+                        <li><a href="#">OUR SERVICES</a></li>
+                        <li><a href="#sm-restaurant-menu">PRICING</a></li>
+                        <!-- <li><a href="#sm-reservation">RESERVATION</a></li> -->
+                        <li><a href="#sm-gallery">GALLERY</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#sm-latest-news">BLOG</a></li>
+                        <li><a href="#sm-contact">CONTACT</a></li>
+                        <!-- <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">PAGE <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="blog-archive.html">BLOG</a></li>
                                 <li><a href="blog-single.html">BLOG DETAILS</a></li>
                                 <li><a href="404.html">404 PAGE</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <!--/.nav-collapse -->

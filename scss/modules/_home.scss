@@ -19,7 +19,11 @@
 ====================*/
 
 @import "home/counter";
-// services section
+
+/*==================
+ Services SECTION
+====================*/
+
 @import "home/services";
 
 /*==================
@@ -74,7 +78,7 @@
  BLOG PAGE
 ====================*/
 
-#mu-blog-banner {
+#sm-blog-banner {
     background-attachment: fixed;
     background-image: url("assets/img/blog-banner.jpg");
     background-position: center center;
@@ -93,7 +97,7 @@
         right: 0;
         z-index: 10;
     }
-    .mu-blog-banner-area {
+    .sm-blog-banner-area {
         display: inline;
         float: left;
         min-height: 350px;
@@ -118,29 +122,29 @@
     }
 }
 
-#mu-blog {
+#sm-blog {
     background-color: #f8f8f8;
     display: inline;
     float: left;
     padding: 50px 0;
     width: 100%;
-    .mu-blog-area {
+    .sm-blog-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-blog-content {
+        .sm-blog-content {
             display: inline;
             float: left;
             width: 100%;
-            .mu-news-single {
+            .sm-news-single {
                 margin-bottom: 30px;
             }
         }
-        .mu-blog-pagination-area {
+        .sm-blog-pagination-area {
             display: inline;
             float: left;
             width: 100%;
-            .mu-blog-pagination {
+            .sm-blog-pagination {
                 display: inline-block;
                 text-align: left;
                 li {
@@ -167,11 +171,11 @@
                 }
             }
         }
-        .mu-blog-sidebar {
+        .sm-blog-sidebar {
             display: inline;
             float: left;
             width: 100%;
-            .mu-blog-sidebar-single {
+            .sm-blog-sidebar-single {
                 background-color: #fff;
                 border: 1px solid #ccc;
                 display: inline;
@@ -191,7 +195,7 @@
                         width: 100px;
                     }
                 }
-                .mu-catg-nav {
+                .sm-catg-nav {
                     &>li {
                         border-bottom: 1px dashed #ccc;
                         color: #555;
@@ -207,7 +211,7 @@
                         }
                     }
                 }
-                .mu-recent-news-nav {
+                .sm-recent-news-nav {
                     li {
                         border-bottom: 1px solid #ccc;
                         &:last-child {
@@ -236,7 +240,7 @@
                         @include transition(all 0.5s);
                     }
                 }
-                .mu-sidebar-add {
+                .sm-sidebar-add {
                     display: block;
                     margin-top: 10px;
                     img {
@@ -248,8 +252,8 @@
     }
 }
 
-.mu-blog-details {
-    .mu-news-single {
+.sm-blog-details {
+    .sm-news-single {
         &>h2 {
             font-size: 28px;
             padding: 15px 20px;
@@ -257,8 +261,8 @@
                 @include transition(all 0.5s);
             }
         }
-        .mu-news-single-content {
-            .mu-meta-nav {
+        .sm-news-single-content {
+            .sm-meta-nav {
                 margin-left: 0;
                 li {
                     margin-bottom: 0;
@@ -293,16 +297,16 @@
                 }
             }
         }
-        .mu-news-single-bottom {
+        .sm-news-single-bottom {
             display: inline;
             float: left;
             padding: 0 0 25px;
             width: 100%;
-            .mu-news-single-tag {
+            .sm-news-single-tag {
                 display: inline;
                 float: left;
                 width: 100%;
-                .mu-news-single-tagnav {
+                .sm-news-single-tagnav {
                     display: inline-block;
                     li {
                         display: inline-block;
@@ -317,11 +321,11 @@
                     }
                 }
             }
-            .mu-news-single-social {
+            .sm-news-single-social {
                 display: inline;
                 float: left;
                 width: 100%;
-                .mu-news-single-socialnav {
+                .sm-news-single-socialnav {
                     display: inline-block;
                     li {
                         display: inline-block;
@@ -341,7 +345,7 @@
     }
 }
 
-.mu-blog-single-navigation {
+.sm-blog-single-navigation {
     display: inline;
     float: left;
     margin-bottom: 30px;
@@ -360,26 +364,26 @@
             background-color: #fff;
         }
     }
-    .mu-blog-prev {
+    .sm-blog-prev {
         float: left;
     }
-    .mu-blog-next {
+    .sm-blog-next {
         float: right;
     }
 }
 
-.mu-blog-related-post {
+.sm-blog-related-post {
     display: inline;
     float: left;
     width: 100%;
-    .mu-blog-related-post-area {
+    .sm-blog-related-post-area {
         display: inline;
         float: left;
         width: 100%;
     }
 }
 
-.mu-comments-area {
+.sm-comments-area {
     display: inline;
     float: left;
     width: 100%;
@@ -540,13 +544,13 @@
  ERROR  PAGE
 ====================*/
 
-#mu-error {
+#sm-error {
     background-color: #F8F8F8;
     display: inline;
     float: left;
     width: 100%;
     padding: 50px 0;
-    .mu-error-area {
+    .sm-error-area {
         display: inline;
         float: left;
         margin-top: 50px;

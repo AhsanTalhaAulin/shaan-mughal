@@ -1,17 +1,14 @@
-#mu-gallery {
-    display: inline;
-    float: left;
-    padding: 100px 0;
-    width: 100%;
-    .mu-gallery-area {
+#sm-gallery {
+    @include section_essentials;
+    .sm-gallery-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-gallery-content {
+        .sm-gallery-content {
             display: inline;
             float: left;
             width: 100%;
-            .mu-gallery-top {
+            .sm-gallery-top {
                 display: inline;
                 float: left;
                 width: 100%;
@@ -58,12 +55,12 @@
                     }
                 }
             }
-            .mu-gallery-body {
+            .sm-gallery-body {
                 display: inline;
                 float: left;
                 width: 100%;
                 margin-top: 50px;
-                .mu-single-gallery {
+                .sm-single-gallery {
                     display: inline;
                     float: left;
                     margin-bottom: 30px;
@@ -71,13 +68,13 @@
                         margin-bottom: 0px;
                     }
                     width: 33.33%;
-                    .mu-single-gallery-item {
+                    .sm-single-gallery-item {
                         display: inline;
                         float: left;
                         width: 100%;
                         position: relative;
                         &:hover {
-                            .mu-single-gallery-img {
+                            .sm-single-gallery-img {
                                 &:after {
                                     border: 2px solid #fff;
                                     bottom: 0;
@@ -88,12 +85,12 @@
                                     top: 0;
                                 }
                             }
-                            .mu-single-gallery-info {
+                            .sm-single-gallery-info {
                                 background-color: rgba(0, 0, 0, 0.8);
                                 opacity: 1;
                             }
                         }
-                        .mu-single-gallery-img {
+                        .sm-single-gallery-img {
                             display: inline;
                             float: left;
                             height: 220px;
@@ -114,7 +111,7 @@
                                 transition: all 0.5s ease 0s;
                             }
                         }
-                        .mu-single-gallery-info {
+                        .sm-single-gallery-info {
                             background-color: rgba(0, 0, 0, 0.8);
                             position: absolute;
                             left: 0;

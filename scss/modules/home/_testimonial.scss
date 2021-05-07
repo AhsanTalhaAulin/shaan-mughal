@@ -1,31 +1,31 @@
-#mu-client-testimonial {
+#sm-client-testimonial {
     background-image: url("assets/img/testimonial-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: inline;
     float: left;
     width: 100%;
-    .mu-overlay {
+    .sm-overlay {
         background-color: rgba(0, 0, 0, 0.8);
         display: inline;
         float: left;
         padding: 70px 0 100px;
         width: 100%;
-        .mu-title {
+        .sm-title {
             h2 {
                 color: #fff;
             }
         }
     }
-    .mu-client-testimonial-area {
+    .sm-client-testimonial-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-testimonial-content {
+        .sm-testimonial-content {
             display: inline;
             float: left;
             width: 100%;
-            .mu-testimonial-slider {
+            .sm-testimonial-slider {
                 display: inline;
                 float: left;
                 width: 100%;
@@ -33,13 +33,13 @@
                     display: inline;
                     float: left;
                     width: 100%;
-                    .mu-testimonial-single {
+                    .sm-testimonial-single {
                         display: inline;
                         float: left;
                         padding: 0 150px;
                         position: relative;
                         width: 100%;
-                        .mu-testimonial-info {
+                        .sm-testimonial-info {
                             display: inline;
                             float: left;
                             width: 100%;
@@ -67,7 +67,7 @@
                                 }
                             }
                         }
-                        .mu-testimonial-bio {
+                        .sm-testimonial-bio {
                             color: #fff;
                             // display: inline-block;
                             float: left;

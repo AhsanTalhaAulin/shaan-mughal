@@ -1,18 +1,15 @@
-#mu-contact {
-    display: inline;
-    float: left;
-    padding: 100px 0;
-    width: 100%;
-    .mu-contact-area {
+#sm-contact {
+    @include section_essentials;
+    .sm-contact-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-contact-content {
+        .sm-contact-content {
             display: inline;
             float: left;
             margin-top: 30px;
             width: 100%;
-            .mu-contact-left {
+            .sm-contact-left {
                 display: inline;
                 float: left;
                 font-family: $heading-font;
@@ -25,7 +22,7 @@
                         letter-spacing: 0.5px;
                     }
                 }
-                .mu-contact-form {
+                .sm-contact-form {
                     input[type="text"],
                     input[type="email"] {
                         color: #000;
@@ -45,12 +42,12 @@
                     }
                 }
             }
-            .mu-contact-right {
+            .sm-contact-right {
                 display: inline;
                 float: left;
                 padding: 0 30px;
                 width: 100%;
-                .mu-contact-widget {
+                .sm-contact-widget {
                     display: inline;
                     float: left;
                     margin-bottom: 25px;

@@ -1,19 +1,16 @@
-#mu-chef {
-    display: inline;
-    float: left;
-    padding: 100px 0;
-    width: 100%;
-    .mu-chef-area {
+#sm-chef {
+    @include section_essentials;
+    .sm-chef-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-chef-content {
+        .sm-chef-content {
             display: inline;
             float: left;
             margin-top: 30px;
             padding-bottom: 60px;
             width: 100%;
-            .mu-chef-nav {
+            .sm-chef-nav {
                 display: inline;
                 float: left;
                 text-align: center;
@@ -31,18 +28,18 @@
                         &:last-child {
                             margin-right: 0;
                         }
-                        .mu-single-chef {
+                        .sm-single-chef {
                             display: inline;
                             float: left;
                             width: 100%;
                             position: relative;
                             &:hover {
-                                .mu-single-chef-social {
+                                .sm-single-chef-social {
                                     bottom: 0;
                                     opacity: 1;
                                 }
                             }
-                            .mu-single-chef-img {
+                            .sm-single-chef-img {
                                 display: inline;
                                 float: left;
                                 width: 100%;
@@ -50,7 +47,7 @@
                                     width: 100%;
                                 }
                             }
-                            .mu-single-chef-info {
+                            .sm-single-chef-info {
                                 display: inline;
                                 float: left;
                                 padding: 10px 10px 20px;
@@ -63,7 +60,7 @@
                                     letter-spacing: 0.5px;
                                 }
                             }
-                            .mu-single-chef-social {
+                            .sm-single-chef-social {
                                 background-color: #000;
                                 position: absolute;
                                 bottom: -100%;

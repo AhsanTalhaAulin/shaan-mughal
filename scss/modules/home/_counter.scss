@@ -1,21 +1,21 @@
-#mu-counter {
+#sm-counter {
     background-attachment: fixed;
     background-image: url("assets/img/counter-bg.jpg");
     background-size: cover;
     display: inline;
     float: left;
     width: 100%;
-    .mu-counter-overlay {
+    .sm-counter-overlay {
         background-color: rgba(0, 0, 0, 0.8);
         display: inline;
         padding: 100px 0;
         float: left;
         width: 100%;
-        .mu-counter-area {
+        .sm-counter-area {
             display: inline;
             float: left;
             width: 100%;
-            .mu-counter-nav {
+            .sm-counter-nav {
                 display: inline-block;
                 width: 100%;
                 li {
@@ -24,7 +24,7 @@
                     &:last-child {
                         border-right: none;
                     }
-                    .mu-single-counter {
+                    .sm-single-counter {
                         color: #fff;
                         display: inline;
                         float: left;

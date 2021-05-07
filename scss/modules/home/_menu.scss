@@ -1,18 +1,18 @@
-#mu-restaurant-menu {
+#sm-restaurant-menu {
     display: inline;
     float: left;
     width: 100%;
     padding: 100px 0;
-    .mu-restaurant-menu-area {
+    .sm-restaurant-menu-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-restaurant-menu-content {
+        .sm-restaurant-menu-content {
             display: inline;
             float: left;
             margin-top: 30px;
             width: 100%;
-            .mu-restaurant-menu {
+            .sm-restaurant-menu {
                 display: inline-block;
                 width: 100%;
                 text-align: center;
@@ -37,24 +37,24 @@
                     }
                 }
             }
-            .mu-tab-content-area {
+            .sm-tab-content-area {
                 display: inline;
                 float: left;
                 width: 100%;
                 padding: 50px 0;
-                .mu-tab-content-left {
+                .sm-tab-content-left {
                     display: inline;
                     float: left;
                     padding-right: 15px;
                     width: 100%;
                 }
-                .mu-tab-content-right {
+                .sm-tab-content-right {
                     display: inline;
                     float: left;
                     padding-left: 15px;
                     width: 100%;
                 }
-                .mu-menu-item-nav {
+                .sm-menu-item-nav {
                     li {
                         border-bottom: 1px dashed #ccc;
                         display: inline;
@@ -85,7 +85,7 @@
                                         @include transition(all 0.5s);
                                     }
                                 }
-                                .mu-menu-price {
+                                .sm-menu-price {
                                     font-size: 16px;
                                     font-weight: bold;
                                     letter-spacing: 1.5px;

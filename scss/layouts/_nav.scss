@@ -1,10 +1,10 @@
-.mu-main-navbar {
+.sm-main-navbar {
     background-color: transparent;
     border: none;
     padding: 0;
     border-radius: 0;
     @include transition(all 0.5s);
-    .mu-main-nav {
+    .sm-main-nav {
         font-family: $heading-font;
         padding: 25px 0;
         li {

@@ -4,8 +4,8 @@
     border: 2px solid $theme-color;
 }
 
-.mu-readmore-btn {
-    color: white;
+.sm-readmore-btn {
+    color: #fff;
     &::after {
         border: 2px solid $theme-color;
     }
@@ -18,7 +18,7 @@
     }
 }
 
-.mu-browsmore-btn {
+.sm-browsmore-btn {
     color: $theme-color;
     &:hover,
     &:focus {
@@ -27,7 +27,7 @@
     }
 }
 
-.mu-send-btn {
+.sm-send-btn {
     &:hover,
     &:focus {
         background-color: $theme-color;
@@ -35,8 +35,8 @@
     }
 }
 
-.mu-main-navbar {
-    .mu-main-nav {
+.sm-main-navbar {
+    .sm-main-nav {
         li {
             a {
                 &:hover,
@@ -54,12 +54,12 @@
     color: $theme-color;
 }
 
-#mu-slider {
-    .mu-slider-area {
-        .mu-top-slider {
-            .mu-top-slider-single {
-                .mu-top-slider-content {
-                    .mu-slider-small-title {
+#sm-slider {
+    .sm-slider-area {
+        .sm-top-slider {
+            .sm-top-slider-single {
+                .sm-top-slider-content {
+                    .sm-slider-small-title {
                         color: $theme-color;
                     }
                 }
@@ -76,9 +76,9 @@
     }
 }
 
-#mu-about-us {
-    .mu-about-us-area {
-        .mu-about-us-left {
+#sm-about-us {
+    .sm-about-us-area {
+        .sm-about-us-left {
             ul {
                 li {
                     &:before {
@@ -90,14 +90,14 @@
     }
 }
 
-.mu-title {
-    .mu-subtitle {
+.sm-title {
+    .sm-subtitle {
         color: $theme-color;
     }
     i {
         color: $theme-color;
     }
-    .mu-title-bar {
+    .sm-title-bar {
         &::before {
             background-color: $theme-color;
         }
@@ -107,10 +107,10 @@
     }
 }
 
-#mu-restaurant-menu {
-    .mu-restaurant-menu-area {
-        .mu-restaurant-menu-content {
-            .mu-restaurant-menu {
+#sm-restaurant-menu {
+    .sm-restaurant-menu-area {
+        .sm-restaurant-menu-content {
+            .sm-restaurant-menu {
                 border-bottom: 1px solid $theme-color;
                 li {
                     a {
@@ -130,8 +130,8 @@
                     }
                 }
             }
-            .mu-tab-content-area {
-                .mu-menu-item-nav {
+            .sm-tab-content-area {
+                .sm-menu-item-nav {
                     li {
                         .media {
                             .media-body {
@@ -143,7 +143,7 @@
                                         }
                                     }
                                 }
-                                .mu-menu-price {
+                                .sm-menu-price {
                                     color: $theme-color;
                                 }
                             }
@@ -155,13 +155,13 @@
     }
 }
 
-#mu-reservation {
-    .mu-reservation-area {
-        .mu-reservation-content {
+#sm-reservation {
+    .sm-reservation-area {
+        .sm-reservation-content {
             h3 {
                 border-bottom: 2px solid $theme-color;
             }
-            .mu-reservation-form {
+            .sm-reservation-form {
                 input[type="text"],
                 input[type="email"] {
                     &:focus {
@@ -196,10 +196,10 @@
     background-color: $theme-color;
 }
 
-#mu-gallery {
-    .mu-gallery-area {
-        .mu-gallery-content {
-            .mu-gallery-top {
+#sm-gallery {
+    .sm-gallery-area {
+        .sm-gallery-content {
+            .sm-gallery-top {
                 ul {
                     li {
                         &:hover,
@@ -219,13 +219,13 @@
     }
 }
 
-#mu-client-testimonial {
-    .mu-client-testimonial-area {
-        .mu-testimonial-content {
-            .mu-testimonial-slider {
+#sm-client-testimonial {
+    .sm-client-testimonial-area {
+        .sm-testimonial-content {
+            .sm-testimonial-slider {
                 li {
-                    .mu-testimonial-single {
-                        .mu-testimonial-bio {
+                    .sm-testimonial-single {
+                        .sm-testimonial-bio {
                             p {
                                 font-family: $heading-font;
                             }
@@ -245,10 +245,10 @@
     }
 }
 
-#mu-subscription {
+#sm-subscription {
     background-color: $theme-color;
-    .mu-subscription-area {
-        .mu-subscription-form {
+    .sm-subscription-area {
+        .sm-subscription-form {
             button[type="submit"] {
                 &:hover {
                     color: $theme-color;
@@ -258,19 +258,19 @@
     }
 }
 
-#mu-chef {
-    .mu-chef-area {
-        .mu-chef-content {
-            .mu-chef-nav {
+#sm-chef {
+    .sm-chef-area {
+        .sm-chef-content {
+            .sm-chef-nav {
                 .slick-list {
                     li {
-                        .mu-single-chef {
-                            .mu-single-chef-info {
+                        .sm-single-chef {
+                            .sm-single-chef-info {
                                 h4 {
                                     color: $theme-color;
                                 }
                             }
-                            .mu-single-chef-social {
+                            .sm-single-chef-social {
                                 a {
                                     border: 1px solid $theme-color;
                                     color: $theme-color;
@@ -296,7 +296,7 @@
     }
 }
 
-.mu-news-single {
+.sm-news-single {
     h3 {
         &:hover {
             color: $theme-color;
@@ -310,11 +310,11 @@
     }
 }
 
-#mu-contact {
-    .mu-contact-area {
-        .mu-contact-content {
-            .mu-contact-left {
-                .mu-contact-form {
+#sm-contact {
+    .sm-contact-area {
+        .sm-contact-content {
+            .sm-contact-left {
+                .sm-contact-form {
                     input[type="text"],
                     input[type="email"] {
                         &:focus {
@@ -328,8 +328,8 @@
                     }
                 }
             }
-            .mu-contact-right {
-                .mu-contact-widget {
+            .sm-contact-right {
+                .sm-contact-widget {
                     h3 {
                         color: $theme-color;
                     }
@@ -339,9 +339,9 @@
     }
 }
 
-#mu-footer {
-    .mu-footer-area {
-        .mu-footer-social {
+#sm-footer {
+    .sm-footer-area {
+        .sm-footer-social {
             a {
                 &:hover,
                 &:hover {
@@ -349,7 +349,7 @@
                 }
             }
         }
-        .mu-footer-copyright {
+        .sm-footer-copyright {
             p {
                 a {
                     &:hover,
@@ -362,8 +362,8 @@
     }
 }
 
-#mu-blog-banner {
-    .mu-blog-banner-area {
+#sm-blog-banner {
+    .sm-blog-banner-area {
         .breadcrumb {
             li {
                 color: $theme-color;
@@ -375,10 +375,10 @@
     }
 }
 
-#mu-blog {
-    .mu-blog-area {
-        .mu-blog-pagination-area {
-            .mu-blog-pagination {
+#sm-blog {
+    .sm-blog-area {
+        .sm-blog-pagination-area {
+            .sm-blog-pagination {
                 li {
                     a {
                         &:hover,
@@ -389,14 +389,14 @@
                 }
             }
         }
-        .mu-blog-sidebar {
-            .mu-blog-sidebar-single {
+        .sm-blog-sidebar {
+            .sm-blog-sidebar-single {
                 h3 {
                     &:after {
                         background-color: $theme-color;
                     }
                 }
-                .mu-catg-nav {
+                .sm-catg-nav {
                     &>li {
                         a {
                             &:hover {
@@ -418,8 +418,8 @@
     }
 }
 
-.mu-blog-details {
-    .mu-news-single {
+.sm-blog-details {
+    .sm-news-single {
         &>h2 {
             font-size: 28px;
             padding: 15px 20px;
@@ -430,14 +430,14 @@
                 }
             }
         }
-        .mu-news-single-content {
+        .sm-news-single-content {
             blockquote {
                 border-color: $theme-color;
             }
         }
-        .mu-news-single-bottom {
-            .mu-news-single-tag {
-                .mu-news-single-tagnav {
+        .sm-news-single-bottom {
+            .sm-news-single-tag {
+                .sm-news-single-tagnav {
                     li {
                         a {
                             &:hover,
@@ -448,8 +448,8 @@
                     }
                 }
             }
-            .mu-news-single-social {
-                .mu-news-single-socialnav {
+            .sm-news-single-social {
+                .sm-news-single-socialnav {
                     li {
                         a {
                             &:hover,
@@ -464,7 +464,7 @@
     }
 }
 
-.mu-blog-single-navigation {
+.sm-blog-single-navigation {
     a {
         &:hover,
         &:focus {
@@ -473,7 +473,7 @@
     }
 }
 
-.mu-comments-area {
+.sm-comments-area {
     .comments {
         .commentlist {
             li {

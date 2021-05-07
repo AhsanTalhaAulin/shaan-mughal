@@ -1,17 +1,17 @@
-#mu-slider {
+#sm-slider {
     display: inline;
     float: left;
     width: 100%;
     position: relative;
-    .mu-slider-area {
+    .sm-slider-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-top-slider {
+        .sm-top-slider {
             display: inline;
             float: left;
             width: 100%;
-            .mu-top-slider-single {
+            .sm-top-slider-single {
                 display: inline;
                 float: left;
                 position: relative;
@@ -29,20 +29,20 @@
                 img {
                     width: 100%;
                 }
-                .mu-top-slider-content {
+                .sm-top-slider-content {
                     position: absolute;
                     left: 15%;
                     top: 33%;
                     right: 15%;
                     text-align: center;
                     z-index: 99;
-                    .mu-slider-small-title {
+                    .sm-slider-small-title {
                         font-family: $small-head-font;
                         font-size: 100px;
                         font-weight: 400;
                         line-height: 40px;
                     }
-                    .mu-slider-title {
+                    .sm-slider-title {
                         color: #fff;
                         font-family: $small-head-font;
                         font-size: 70px;

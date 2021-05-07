@@ -1,5 +1,5 @@
 <div id="aa-preloader-area">
-        <div class="mu-preloader">
+        <div class="sm-preloader">
             <img src="assets/img/preloader.gif" alt=" loader img">
         </div>
     </div>

@@ -1,13 +1,13 @@
-#mu-about-us {
+#sm-about-us {
     display: inline;
     float: left;
     width: 100%;
     padding: 100px 0;
-    .mu-about-us-area {
+    .sm-about-us-area {
         display: inline;
         float: left;
         width: 100%;
-        .mu-about-us-left {
+        .sm-about-us-left {
             display: inline;
             float: left;
             margin-top: 20px;
@@ -30,7 +30,7 @@
                 }
             }
         }
-        .mu-about-us-right {
+        .sm-about-us-right {
             display: inline;
             float: left;
             margin-top: 20px;
@@ -40,13 +40,13 @@
     }
 }
 
-.mu-title {
+.sm-title {
     display: inline;
     float: left;
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    .mu-subtitle {
+    .sm-subtitle {
         font-size: 50px;
         font-family: $small-head-font;
         line-height: 30px;
@@ -59,7 +59,7 @@
     i {
         font-size: 18px;
     }
-    .mu-title-bar {
+    .sm-title-bar {
         position: relative;
         &::before {
             content: "";
