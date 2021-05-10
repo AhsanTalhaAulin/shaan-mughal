@@ -16,7 +16,7 @@
                                 <li><a href="#Curry" data-toggle="tab">Curry</a></li>
                                 <li><a href="#Sides" data-toggle="tab">Sides</a></li>
                                 <li><a href="#desserts" data-toggle="tab">Desserts</a></li>
-                                <li><a href="#drinks" data-toggle="tab">Drinks</a></li>
+                                <li class="vanish"><a href="#drinks" data-toggle="tab">Drinks</a></li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -35,9 +35,9 @@
                                                                     </a>
                                                                 </div>
                                                                 <div class="media-body">
-                                                                    <h4 class="media-heading"><a href="#">Plain Polao (chinigura)</a></h4>
-                                                                    <span class="sm-menu-price">৳55</span>
-                                                                    <p>140 gm Premium Chinigura rice per person</p>
+                                                                    <h4 class="media-heading"><a href="#">Plain Polao</a></h4>
+                                                                    <span class="sm-menu-price">৳55 per serve</span>
+                                                                    <p>140 gm Premium Chinigura rice </p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -50,8 +50,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Morog polao half chicken</a></h4>
-                                                                    <span class="sm-menu-price">৳220/240 </span>
-                                                                    <p>per Pax (1/2 Chicken)</p>
+                                                                    <span class="sm-menu-price">৳220/240 per serve</span>
+                                                                    <p>(1/2 Chicken)</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -64,8 +64,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Morog polao quarter chicken</a></h4>
-                                                                    <span class="sm-menu-price">৳160/180</span>
-                                                                    <p>per Pax (1/4 Chicken)</p>
+                                                                    <span class="sm-menu-price">৳160/180 per serve</span>
+                                                                    <p>(1/4 Chicken)</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -84,8 +84,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Mutton Kacchi (Basmati Rice)</a></h4>
-                                                                    <span class="sm-menu-price">৳330</span>
-                                                                    <p>per Pax</p>
+                                                                    <span class="sm-menu-price">৳330 per serve</span>
+                                                                    <p></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -98,8 +98,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Beef tehari</a></h4>
-                                                                    <span class="sm-menu-price">৳165</span>
-                                                                    <p><1/6 KG/p>
+                                                                    <span class="sm-menu-price">৳165 per serve</span>
+                                                                    <p>1/6 Kg</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -113,7 +113,7 @@
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Beef tehari</a></h4>
                                                                     <span class="sm-menu-price">৳195</span>
-                                                                    <p>1/6 KG</p>
+                                                                    <p>1/5 Kg</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -342,8 +342,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Jorda</a></h4>
-                                                                    <span class="sm-menu-price">৳25 </span>
-                                                                    <p>per person</p>
+                                                                    <span class="sm-menu-price">৳25 per serve</span>
+                                                                    <!-- <p>per person</p> -->
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -356,8 +356,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Jorda (Basmati Rice)</a></h4>
-                                                                    <span class="sm-menu-price">৳1500</span>
-                                                                    <p>Per Kg</p>
+                                                                    <span class="sm-menu-price">৳1500 per Kg</span>
+                                                                    <p></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -370,8 +370,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Baby Sweets</a></h4>
-                                                                    <span class="sm-menu-price">৳300</span>
-                                                                    <p>Per Kg</p>
+                                                                    <span class="sm-menu-price">৳300 per Kg</span>
+                                                                    <p></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -390,8 +390,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Jafrani Firni</a></h4>
-                                                                    <span class="sm-menu-price">৳50</span>
-                                                                    <p>per Cup</p>
+                                                                    <span class="sm-menu-price">৳50 per Cup</span>
+                                                                    <p></p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -404,8 +404,8 @@
                                                                 </div>
                                                                 <div class="media-body">
                                                                     <h4 class="media-heading"><a href="#">Borhani</a></h4>
-                                                                    <span class="sm-menu-price">৳45</span>
-                                                                    <p>per glass (250 ml)</p>
+                                                                    <span class="sm-menu-price">৳45 per glass </span>
+                                                                    <p>(250 ml)</p>
                                                                 </div>
                                                             </div>
                                                         </li>
