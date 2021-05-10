@@ -51,3 +51,7 @@
 ====================*/
 
 @import 'modules/_responsive.scss';
+// custom modules
+.vanish {
+    display: none !important;
+}
