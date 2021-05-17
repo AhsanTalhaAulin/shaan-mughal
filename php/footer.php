@@ -13,7 +13,7 @@
                             <a href="#"><span class="fa fa-youtube"></span></a>
                         </div>
                         <div class="sm-footer-copyright">
-                            <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+                            <p>Designed by <a rel="nofollow" target="_blank" href="http://www.harriswebworks.com/">Harris Web Works</a></p>
                         </div>
                     </div>
                 </div>

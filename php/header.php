@@ -23,7 +23,7 @@
                         <li><a href="#sm-restaurant-menu">PRICING</a></li>
                         <!-- <li><a href="#sm-reservation">RESERVATION</a></li> -->
                         <li><a href="#sm-gallery">GALLERY</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a id="faq-btn" >FAQ</a></li>
                         <li><a href="#sm-latest-news">BLOG</a></li>
                         <li><a href="#sm-contact">CONTACT</a></li>
                         <!-- <li class="dropdown">
@@ -39,5 +39,10 @@
                 <!--/.nav-collapse -->
             </div>
         </nav>
+
+        <?php include "faq.php" ?>
+
     </header>
+
+    
     <!-- End header section -->
