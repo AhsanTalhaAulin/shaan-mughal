@@ -7,9 +7,9 @@
                     <div class="sm-footer-area">
                         <div class="sm-footer-social">
                             <a href="#"><span class="fa fa-facebook"></span></a>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                            <a href="#"><span class="fa fa-google-plus"></span></a>
-                            <a href="#"><span class="fa fa-linkedin"></span></a>
+                            <!-- <a href="#"><span class="fa fa-twitter"></span></a> -->
+                            <!-- <a href="#"><span class="fa fa-google-plus"></span></a> -->
+                            <a href="#"><span class="fa fa-instagram"></span></a>
                             <a href="#"><span class="fa fa-youtube"></span></a>
                         </div>
                         <div class="sm-footer-copyright">
