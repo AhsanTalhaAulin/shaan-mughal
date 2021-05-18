@@ -1063,9 +1063,9 @@ img {
   position: absolute;
   text-align: end;
   top: 0%;
-  opacity: 0.6;
   width: 100%;
   z-index: -10;
+  color: #f37521;
 }
 
 #sm-client-testimonial .sm-client-testimonial-area .sm-testimonial-content .sm-testimonial-slider li .sm-testimonial-single .sm-testimonial-bio {
