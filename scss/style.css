@@ -986,7 +986,6 @@ img {
   TESTIMONIAL SECTION
 ====================*/
 #sm-client-testimonial {
-  background-image: url("assets/img/testimonial-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   display: inline;
@@ -1060,10 +1059,10 @@ img {
   content: '\f10e';
   font-family: fontAwesome;
   font-size: 50px;
-  left: 1%;
+  left: 5%;
   position: absolute;
-  text-align: center;
-  top: 20%;
+  text-align: end;
+  top: 0%;
   opacity: 0.6;
   width: 100%;
   z-index: -10;
