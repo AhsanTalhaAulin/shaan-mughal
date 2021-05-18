@@ -121,6 +121,10 @@ img {
   z-index: 999;
 }
 
+#faq-btn {
+  cursor: pointer;
+}
+
 .sm-faq {
   /* Hidden by default */
   display: none;
@@ -148,7 +152,7 @@ img {
 .sm-faq .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
   border: 1px solid #888;
   width: 80%;
   /* The Close Button */
@@ -169,8 +173,8 @@ img {
 }
 
 .sm-faq .modal-content .collapsible {
-  background-color: #fff;
-  color: #000;
+  background-color: #fefefe;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -180,14 +184,32 @@ img {
   font-size: 15px;
 }
 
-.sm-faq .modal-content .collapsible .hover {
-  background-color: #555;
+.sm-faq .modal-content .collapsible:hover {
+  background-color: #dddddd;
+}
+
+.sm-faq .modal-content .collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.sm-faq .modal-content .active {
+  background-color: #ddd;
+}
+
+.sm-faq .modal-content .active:after {
+  content: "\2212";
 }
 
 .sm-faq .modal-content .content {
   padding: 0 18px;
-  display: none;
+  max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
 

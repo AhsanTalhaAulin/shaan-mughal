@@ -1,3 +1,7 @@
+#faq-btn {
+    cursor: pointer;
+}
+
 .sm-faq {
     /* Hidden by default */
     display: none;
@@ -23,7 +27,7 @@
     .modal-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 20px;
+        padding: 50px;
         border: 1px solid #888;
         width: 80%;
         /* The Close Button */
@@ -41,8 +45,8 @@
             }
         }
         .collapsible {
-            background-color: #fff;
-            color: #000;
+            background-color: #fefefe;
+            color: black;
             cursor: pointer;
             padding: 18px;
             width: 100%;
@@ -50,14 +54,28 @@
             text-align: left;
             outline: none;
             font-size: 15px;
-            .hover {
-                background-color: #555;
+            &:hover {
+                background-color: #dddddd;
+            }
+            &:after {
+                content: '\002B';
+                color: black;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+        }
+        .active {
+            background-color: #ddd;
+            &:after {
+                content: "\2212";
             }
         }
         .content {
             padding: 0 18px;
-            display: none;
+            max-height: 0;
             overflow: hidden;
+            transition: max-height 0.2s ease-out;
             background-color: #f1f1f1;
         }
     }
